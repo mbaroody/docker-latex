@@ -11,7 +11,6 @@ RUN apt-get update && \
 # \$pdf_update_method = 1; \n\
 # " > /etc/LatexMk
 
-ADD awesome-cv.cls /usr/local/texlive/texmf-local/
 RUN texhash
 
 RUN groupadd latex
